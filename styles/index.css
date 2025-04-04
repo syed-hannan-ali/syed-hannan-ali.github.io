@@ -1,0 +1,76 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+.hero {
+  background: linear-gradient(to right, #1f1f1f, #333333);
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #f1f1f1;
+}
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+  background: #1e1e1e;
+  color: white;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+.card-title {
+  color: #90caf9;
+  font-weight: 600;
+}
+.about-box {
+  background: #1e1e1e;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 40px 0;
+}
+footer a {
+  color: #b0bec5;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ffffff;
+}
+.btn-gradient {
+  background: linear-gradient(45deg, #2196f3, #673ab7);
+  color: white;
+  border: none;
+}
+.btn-gradient:hover {
+  opacity: 0.85;
+}
+.btn-light {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+.btn-light:hover {
+  background-color: #444;
+}
